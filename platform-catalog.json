@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "releases": [
+    {
+      "version": "0.1.3",
+      "schema": 10,
+      "fromSchema": 0,
+      "migrationSha256": null,
+      "migrations": [],
+      "providerConfigurationVersion": 3,
+      "images": {
+        "database": "postgres:17@sha256:2d2b8998d31037bf721cfdf764d76ba74171b4fab3431b7f72c27c56ddbdf9e3",
+        "edge": "caddy:2@sha256:685ae3d7c34d9b5f8caeddc5d14051db7bbd88ff1f5a2fa0c16bd8ca328fb7af",
+        "bridge": "ghcr.io/1f43/prop-bridge@sha256:a0bb6244faaf57101d32c75e9345b5abb0dab78065dae7456836332d22d79b8a",
+        "directory": "ghcr.io/1f43/prop-directory@sha256:46c025355338956de1132760592bedafd6887fe18af0c54b6ca651dab02ae2b7",
+        "bootstrap": "ghcr.io/1f43/prop-platform-bootstrap@sha256:c730530e0c8b317901273220a8ca9cf253cf1db9950df0b687cb74f602658a1a",
+        "gateway": "ghcr.io/1f43/prop-central-apps@sha256:efef621b56b11b58cdcedbc768d41603a55feb0b0146072c79ad7cf11fe46376"
+      },
+      "firmImages": {
+        "database": "postgres:17@sha256:2d2b8998d31037bf721cfdf764d76ba74171b4fab3431b7f72c27c56ddbdf9e3",
+        "gateway": "nginx:stable@sha256:eb1c896deef834f4e056829fd6dadac8305501f16cc71ba65fb252c8d0aa168e",
+        "platform-api": "ghcr.io/1f43/prop-platform-api@sha256:e0b11c287a26d449ac878d87992a36e02289bc01cc21c53e8065da8583df292c",
+        "trading-api": "ghcr.io/1f43/prop-trading-api@sha256:228b17f73c2006b06eb44d8d77d132c9f974436a318481fb0ca7b6e672965c33",
+        "admin-api": "ghcr.io/1f43/prop-admin-api@sha256:38db7a3e519880a648007234bb5f7bbaac3af68920c7534b432c95457fac02a1",
+        "bootstrap": "ghcr.io/1f43/prop-firm-bootstrap@sha256:05c99b4ae8698410a8b8afb0dc23f850e46543f5422bd33d6ce87945a68d7bf6",
+        "web": "ghcr.io/1f43/prop-central-apps@sha256:efef621b56b11b58cdcedbc768d41603a55feb0b0146072c79ad7cf11fe46376",
+        "edge": "caddy:2@sha256:685ae3d7c34d9b5f8caeddc5d14051db7bbd88ff1f5a2fa0c16bd8ca328fb7af"
+      },
+      "firmCatalogUrl": "https://raw.githubusercontent.com/1F43/prop-release-catalog/main/catalog.json",
+      "platformCatalogUrl": "https://raw.githubusercontent.com/1F43/prop-release-catalog/main/platform-catalog.json"
+    }
+  ]
+}
