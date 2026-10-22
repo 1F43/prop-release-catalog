@@ -112,6 +112,22 @@
         "web": "ghcr.io/1f43/prop-central-apps@sha256:335e8e4e8c1586a371484143598431ac97b6c0a08b3e48eb042f77dcddce7a83",
         "edge": "caddy:2@sha256:685ae3d7c34d9b5f8caeddc5d14051db7bbd88ff1f5a2fa0c16bd8ca328fb7af"
       }
+    },
+    {
+      "version": "0.1.12",
+      "sourceSha256": "7dd77fa93da588135e1886821c713b88d5f7956c984359a589c163cc87850880",
+      "targetSha256": "7dd77fa93da588135e1886821c713b88d5f7956c984359a589c163cc87850880",
+      "migrations": [],
+      "images": {
+        "database": "postgres:17@sha256:2d2b8998d31037bf721cfdf764d76ba74171b4fab3431b7f72c27c56ddbdf9e3",
+        "gateway": "nginx:stable@sha256:eb1c896deef834f4e056829fd6dadac8305501f16cc71ba65fb252c8d0aa168e",
+        "platform-api": "ghcr.io/1f43/prop-platform-api@sha256:083d22c1d2f1950e08ceba6c1ad6a4dab6583cee596df74c9b0b17bdcd07090c",
+        "trading-api": "ghcr.io/1f43/prop-trading-api@sha256:92b72cf58e8ff31e9e435d6534671dc7ac827909f4bf76c06f15c4634072d114",
+        "admin-api": "ghcr.io/1f43/prop-admin-api@sha256:a9ec27240a8f82bf52452df936c854c7f8500624aaf905973142c1755761b031",
+        "bootstrap": "ghcr.io/1f43/prop-firm-bootstrap@sha256:2fde9cd71afa81b733af5c57059932ab759005b7ad74b5b5b2cb270b4fd25b5e",
+        "web": "ghcr.io/1f43/prop-central-apps@sha256:75d04fc160feaf580fa85e069319a220a504d921563cbce14740a9a95c25ef17",
+        "edge": "caddy:2@sha256:685ae3d7c34d9b5f8caeddc5d14051db7bbd88ff1f5a2fa0c16bd8ca328fb7af"
+      }
     }
   ]
 }
