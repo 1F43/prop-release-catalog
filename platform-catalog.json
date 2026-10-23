@@ -840,6 +840,34 @@
       },
       "firmCatalogUrl": "https://raw.githubusercontent.com/1F43/prop-release-catalog/main/catalog.json",
       "platformCatalogUrl": "https://raw.githubusercontent.com/1F43/prop-release-catalog/main/platform-catalog.json"
+    },
+    {
+      "version": "0.1.43",
+      "schema": 10,
+      "fromSchema": 10,
+      "migrationSha256": null,
+      "migrations": [],
+      "providerConfigurationVersion": 3,
+      "images": {
+        "database": "postgres:17@sha256:2d2b8998d31037bf721cfdf764d76ba74171b4fab3431b7f72c27c56ddbdf9e3",
+        "edge": "caddy:2@sha256:685ae3d7c34d9b5f8caeddc5d14051db7bbd88ff1f5a2fa0c16bd8ca328fb7af",
+        "bridge": "ghcr.io/1f43/prop-bridge@sha256:a4955ce4c3e5ee1b85df098b2d149e574dba1a87e1d1768dc8cbcc2e1a8cfb40",
+        "directory": "ghcr.io/1f43/prop-directory@sha256:8ab1259150ed275484afea0c678eda0f6d4c0528dacfa527f307320dcab3f323",
+        "bootstrap": "ghcr.io/1f43/prop-platform-bootstrap@sha256:62625d01a29ea044e76e1ccde9bbddc962b3288d51a248de1e17cea7c9c90d54",
+        "gateway": "ghcr.io/1f43/prop-central-apps@sha256:0042a3d0cfaa7819dabc3c44f54fc15c574c857382e00a3a994f2f69f37cd286"
+      },
+      "firmImages": {
+        "database": "postgres:17@sha256:2d2b8998d31037bf721cfdf764d76ba74171b4fab3431b7f72c27c56ddbdf9e3",
+        "gateway": "nginx:stable@sha256:eb1c896deef834f4e056829fd6dadac8305501f16cc71ba65fb252c8d0aa168e",
+        "platform-api": "ghcr.io/1f43/prop-platform-api@sha256:7932c45267ed1def9126f17fd869717225409a18e9f87541cebcd45edc6ef2cf",
+        "trading-api": "ghcr.io/1f43/prop-trading-api@sha256:1977bd4b6a1fb008cbd796e6a854585bba84cf867f8d736de9d85d5b9354de8d",
+        "admin-api": "ghcr.io/1f43/prop-admin-api@sha256:84cecfbc52f5d6a36a9b8a5ed260928c5adae406e76eb081e0e9ce51422c41b2",
+        "bootstrap": "ghcr.io/1f43/prop-firm-bootstrap@sha256:ea3402353b4bb4e80d3df81210d7431ecb05a5ecc9c87f3db251570d48582160",
+        "web": "ghcr.io/1f43/prop-central-apps@sha256:0042a3d0cfaa7819dabc3c44f54fc15c574c857382e00a3a994f2f69f37cd286",
+        "edge": "caddy:2@sha256:685ae3d7c34d9b5f8caeddc5d14051db7bbd88ff1f5a2fa0c16bd8ca328fb7af"
+      },
+      "firmCatalogUrl": "https://raw.githubusercontent.com/1F43/prop-release-catalog/main/catalog.json",
+      "platformCatalogUrl": "https://raw.githubusercontent.com/1F43/prop-release-catalog/main/platform-catalog.json"
     }
   ]
 }
